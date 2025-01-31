@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "poppins", serif;
+    background-color: #09122C;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo-container {
+    background-color: #872341;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .todo-container:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #BE3144;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#991526 ;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  li:hover {
+    background-color: #efefef;
+    transform: scale(1.02); 
+  }
+
+  button.delete-btn {
+    margin-left: 50px;
+    background-color: #E17564;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #6b1508;
+  }
+  
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #e0e0e0;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  

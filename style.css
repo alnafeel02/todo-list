@@ -97,4 +97,11 @@ li.completed {
   input[type="checkbox"] {
     margin-right: 5px;
   }
+
+
+  @media screen and (max-width:600px){
+    .todo-container{
+      width: 60%;
+    }
+  }
   

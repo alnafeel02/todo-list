@@ -101,7 +101,7 @@ li.completed {
 
   @media screen and (max-width:600px){
     .todo-container{
-      width: 60%;
+      width: 70%;
     }
   }
   
